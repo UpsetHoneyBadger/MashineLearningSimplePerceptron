@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The d3 test</title>
+    <link rel="stylesheet" href="./src/main.css">
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.9.0"> </script>
+</head>
+
+<body>
+    <div class="description">
+        <p>This is a simple perceptron made in Tensorflow.js, that can solve a linear problem.</p>
+        <p>The "Train Model" button will run 10 training episodes with the data visualized below. The input (features) to the perceptron is the x and y position of each dot. The perceptron tries to predict the two labels (red or green)</p>
+        <p>The background color shows the prediction of the trained model.</p>
+    </div>
+    <div class="controlPanel">
+        <button class="button train-button" id="train">Train Model</button>
+        <button class="button step-button" id="train-step">1 Step</button>
+        <button class="button reset-button" id="reset-model">Reset Model</button>
+    </div>
+    <div class='chartContainer'>    
+    </div>
+    <p id="training-loss">Training loss: </p>
+    <script type="text/javascript" src="./src/scatter.js"></script>
+    <script src="./src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+.button {
+    border: none;
+    color: white;
+    padding:  15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.train-button {
+    background-color: rgb(123, 22, 22);
+    border: none;
+    color: white;
+    padding:  15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.step-button {
+    background-color: rgb(52, 126, 42);
+    border: none;
+    color: white;
+    padding:  15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.reset-button {
+    background-color: rgb(45, 21, 68);
+    border: none;
+    color: white;
+    padding:  15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.description{
+    font: 15px sans-serif;
+    width: 50%;
+    margin: auto;
+}
+.controlPanel{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.chart {
+    display: block;
+    margin: auto;
+}
+
+.main text {
+    font: 10px sans-serif;
+}
+
+.axis line,
+.axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+.aboveLine {
+    fill:red
+}
+.belowLine {
+    fill: rgb(0, 255, 55)
+}
+
+#training-loss{
+    text-align: center;
+    font: 20px  sans-serif;
+}
